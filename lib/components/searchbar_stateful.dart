@@ -68,7 +68,7 @@ class _SearchBarStatefulState extends State<SearchBarStateful> {
               ),
       ],
       onSubmitted: (_) => widget.onSearch(),
-      elevation: MaterialStateProperty.all(3),
+      elevation: WidgetStateProperty.all(3),
     );
   }
 }

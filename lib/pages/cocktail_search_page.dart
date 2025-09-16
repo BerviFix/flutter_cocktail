@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_cocktail/components/drink_card.dart';
-import 'package:flutter_cocktail/components/searchbar.dart';
+import 'package:flutter_cocktail/components/searchbar_stateful.dart';
 import 'package:flutter_cocktail/models/cocktail.dart';
 import 'package:http/http.dart' as http;
 

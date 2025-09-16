@@ -103,9 +103,10 @@ class _CocktailDetailPageState extends State<CocktailDetailPage> {
           flexibleSpace: FlexibleSpaceBar(
             title: Text(
               _cocktail!.name,
+              textAlign: TextAlign.center,
               style: const TextStyle(
                 fontWeight: FontWeight.bold,
-                shadows: [Shadow(blurRadius: 4, color: Colors.black54)],
+                color: Colors.white,
               ),
             ),
             background: Hero(
